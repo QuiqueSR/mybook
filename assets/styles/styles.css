@@ -1,1 +1,131 @@
-body { background-color: red }
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+/* ---- layout ---- */
+
+.main-header {
+
+}
+
+.main-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+section {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* ---- components ---- */
+
+
+
+/* ---- section ---- */
+
+.inline-list li{
+    display: inline-block;
+}
+
+.portfolio__list li{
+    width: 20%;
+}
+
+/* ---- header ---- */
+
+.page-header h1{
+    font-size: 1em;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .page-header{
+        background: green;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}```
+Entrada de mensaje
+
+
+Enviar mensaje a uxuibcn0119
+
+a{
+    color: orange;
+}
+a:hover{color: green}
+
+img:hover{
+    opacity: 0.7;
+}
+
+img:hover{
+    opacity: .7;
+    -moz-box-shadow:    2px -1px 12px 0px #000;
+    -webkit-box-shadow: 2px -1px 12px 0px #000;
+    box-shadow:         2px -1px 12px 0px #000;
+  }
+
+.page-header{
+    background: #000;
+    color: white;
+}
+
+.page-header a{
+    color: indianred;
+}
+
+.page-header a:hover{
+    color: rgb(37, 15, 116);
+}
+
+.main-navigation ul li{
+    display: inline-block;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+body { background-color: pink }
